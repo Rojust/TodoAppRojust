@@ -1,0 +1,80 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tbcmad.todoapp"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->E:\kaleko-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->E:\kaleko-master\app\src\main\AndroidManifest.xml
+10
+11    <application
+11-->E:\kaleko-master\app\src\main\AndroidManifest.xml:5:5-24:19
+12        android:allowBackup="true"
+12-->E:\kaleko-master\app\src\main\AndroidManifest.xml:6:9-35
+13        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+13-->[androidx.core:core:1.3.1] C:\Users\Rozost\.gradle\caches\transforms-3\6fe0ab20c8960bf9381560effbd3eb86\transformed\core-1.3.1\AndroidManifest.xml:24:18-86
+14        android:debuggable="true"
+15        android:icon="@mipmap/ic_launcher"
+15-->E:\kaleko-master\app\src\main\AndroidManifest.xml:7:9-43
+16        android:label="@string/app_name"
+16-->E:\kaleko-master\app\src\main\AndroidManifest.xml:8:9-41
+17        android:roundIcon="@mipmap/ic_launcher_round"
+17-->E:\kaleko-master\app\src\main\AndroidManifest.xml:9:9-54
+18        android:supportsRtl="true"
+18-->E:\kaleko-master\app\src\main\AndroidManifest.xml:10:9-35
+19        android:testOnly="true"
+20        android:theme="@style/Theme.TodoApp" >
+20-->E:\kaleko-master\app\src\main\AndroidManifest.xml:11:9-45
+21        <activity android:name="com.tbcmad.todoapp.LoginActivity" />
+21-->E:\kaleko-master\app\src\main\AndroidManifest.xml:12:9-60
+21-->E:\kaleko-master\app\src\main\AndroidManifest.xml:12:19-48
+22        <activity android:name="com.tbcmad.todoapp.EditActivity" />
+22-->E:\kaleko-master\app\src\main\AndroidManifest.xml:13:9-60
+22-->E:\kaleko-master\app\src\main\AndroidManifest.xml:13:19-47
+23        <activity
+23-->E:\kaleko-master\app\src\main\AndroidManifest.xml:14:9-20:20
+24            android:name="com.tbcmad.todoapp.SplashActivity"
+24-->E:\kaleko-master\app\src\main\AndroidManifest.xml:14:19-49
+25            android:exported="true" >
+25-->E:\kaleko-master\app\src\main\AndroidManifest.xml:15:13-36
+26            <intent-filter>
+26-->E:\kaleko-master\app\src\main\AndroidManifest.xml:16:13-19:29
+27                <action android:name="android.intent.action.MAIN" />
+27-->E:\kaleko-master\app\src\main\AndroidManifest.xml:17:17-69
+27-->E:\kaleko-master\app\src\main\AndroidManifest.xml:17:25-66
+28
+29                <category android:name="android.intent.category.LAUNCHER" />
+29-->E:\kaleko-master\app\src\main\AndroidManifest.xml:18:17-77
+29-->E:\kaleko-master\app\src\main\AndroidManifest.xml:18:27-74
+30            </intent-filter>
+31        </activity>
+32        <activity android:name="com.tbcmad.todoapp.MainActivity" >
+32-->E:\kaleko-master\app\src\main\AndroidManifest.xml:21:9-22:20
+32-->E:\kaleko-master\app\src\main\AndroidManifest.xml:21:19-47
+33        </activity>
+34
+35        <service
+35-->[androidx.room:room-runtime:2.2.6] C:\Users\Rozost\.gradle\caches\transforms-3\471c7d488902011f250d063cd09ccd55\transformed\room-runtime-2.2.6\AndroidManifest.xml:25:9-28:40
+36            android:name="androidx.room.MultiInstanceInvalidationService"
+36-->[androidx.room:room-runtime:2.2.6] C:\Users\Rozost\.gradle\caches\transforms-3\471c7d488902011f250d063cd09ccd55\transformed\room-runtime-2.2.6\AndroidManifest.xml:26:13-74
+37            android:directBootAware="true"
+37-->[androidx.room:room-runtime:2.2.6] C:\Users\Rozost\.gradle\caches\transforms-3\471c7d488902011f250d063cd09ccd55\transformed\room-runtime-2.2.6\AndroidManifest.xml:27:13-43
+38            android:exported="false" />
+38-->[androidx.room:room-runtime:2.2.6] C:\Users\Rozost\.gradle\caches\transforms-3\471c7d488902011f250d063cd09ccd55\transformed\room-runtime-2.2.6\AndroidManifest.xml:28:13-37
+39
+40        <provider
+40-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Rozost\.gradle\caches\transforms-3\40f1ac86002f4d4f5239081676770b9e\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+41            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+41-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Rozost\.gradle\caches\transforms-3\40f1ac86002f4d4f5239081676770b9e\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+42            android:authorities="com.tbcmad.todoapp.lifecycle-process"
+42-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Rozost\.gradle\caches\transforms-3\40f1ac86002f4d4f5239081676770b9e\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+43            android:exported="false"
+43-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Rozost\.gradle\caches\transforms-3\40f1ac86002f4d4f5239081676770b9e\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+44            android:multiprocess="true" />
+44-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\Rozost\.gradle\caches\transforms-3\40f1ac86002f4d4f5239081676770b9e\transformed\jetified-lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+45    </application>
+46
+47</manifest>
